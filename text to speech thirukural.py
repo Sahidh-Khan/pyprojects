@@ -9,4 +9,4 @@ language='ta' # mentioning the language
 obj=gTTS(text= text,lang=language,slow=False)  # mentioning the parameters
 
 obj.save('thirukural.mp3')  #to save the mp3 file
-os.system('thirukural.mp3')  #os.system() is used to execute a command.
+os.system('thirukural.mp3')  #os.system() is used to execute system command.
